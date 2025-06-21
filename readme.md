@@ -37,15 +37,14 @@ Zentcorp/
 
 ## 🌐 Descripción de las páginas
 
-| Página                      | Tecnología Principal     | Descripción                                                                 |
-|----------------------------|--------------------------|-----------------------------------------------------------------------------|
-| `index.html`               | Bootstrap 5              | Carrusel automático, tarjetas de servicios, navbar y diseño responsivo     |
-| `2 Tailwind CSS.html`      | Tailwind CSS + Bootstrap | Aplicación de clases utilitarias, estructura moderna, botón externo        |
-| `3 Flex-box.html`          | Flexbox + BEM            | Estructura adaptable para contenidos en línea con clases semánticas        |
-| `4 cssgridbem.html`        | CSS Grid + BEM           | Comparación de Grid y Flexbox, bloques distribuidos en cuadrícula          |
-| `5 htmlcsspuro bem.html`   | HTML + CSS puro + BEM    | Presentación de equipo, sin frameworks, completamente responsivo           |
+| Página                        | Descripción                                                                                       | Enlace                        |
+|------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------|
+| [`index.html`](index.html)                     | Página principal del sitio con diseño en **Bootstrap**. Carrusel, servicios y navegación responsive.   | ✔️ Página de inicio           |
+| [`2 Tailwind CSS.html`](2%20Tailwind%20CSS.html) | Demostración del uso de **Tailwind CSS** para un diseño ágil y utilitario.                            | ✔️ Diseño con utilidades      |
+| [`3 Flex-box.html`](3%20Flex-box.html)         | Maquetación responsiva con **Flexbox** y clases semánticas BEM.                                      | ✔️ Flexbox adaptativo         |
+| [`4 cssgridbem.html`](4%20cssgridbem.html)     | Comparación técnica usando **CSS Grid** + BEM para estructuras complejas.                             | ✔️ CSS Grid bidimensional     |
+| [`5 htmlcsspuro bem.html`](5%20htmlcsspuro%20bem.html) | Página construida solo con **HTML y CSS puro**, aplicando BEM. Presentación del equipo.               | ✔️ Estructura básica profesional |
 
----
 
 ## 🎨 Estilo Visual
 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uso del Tailwind CSS</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #4b0082, #1e3a8a);
+      color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+      <img src="imagenes/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+      Zentcorp
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Ofrecemos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="2 Tailwind CSS.html">Tailwind</a></li>
+          <li class="nav-item"><a class="nav-link" href="3 Flex-box.html">Flexbox</a></li>
+          <li class="nav-item"><a class="nav-link" href="4 cssgridbem.html">CSS Grid</a></li>
+          <li class="nav-item"><a class="nav-link" href="5 htmlcsspuro bem.html">Quiens Somos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <header class="container text-center py-5 bg-white text-dark rounded shadow-sm mt-4">
+    <h1 class="display-5 fw-bold mb-3">Implementación con Tailwind CSS</h1>
+    <p class="text-secondary col-lg-8 mx-auto fs-5">
+      En esta sección del sitio de <strong>Zentcorp</strong>, explicamos cómo usar <strong>Tailwind CSS</strong> como alternativa moderna y eficiente para maquetar interfaces responsivas. Esta tecnología mejora el tiempo de desarrollo mediante clases utilitarias, optimizando la estructura visual del sitio corporativo.
+    </p>
+
+    <!-- Imagen decorativa -->
+    <div class="mt-4">
+      <img src="imagenes/imagen 07.png" alt="Ilustración Tailwind CSS" class="img-fluid rounded shadow-sm mx-auto d-block" style="width: 60%;">
+    </div>
+  </header>
+
+  <!-- Comparación Bootstrap vs Tailwind -->
+  <section class="container my-5 p-4 bg-white text-dark rounded-4 shadow-sm">
+    <h2 class="h4 fw-semibold mb-4">Tailwind vs Bootstrap en entornos empresariales</h2>
+    <ul class="list-group list-group-flush mb-4">
+      <li class="list-group-item">
+        <strong>Bootstrap</strong> utiliza componentes prearmados que permiten maquetar rápidamente con un diseño uniforme, ideal para proyectos con tiempo limitado.
+      </li>
+      <li class="list-group-item">
+        <strong>Tailwind CSS</strong> proporciona mayor control visual con clases de utilidad como <code>p-4</code>, <code>text-center</code> y <code>bg-light</code>, adaptándose mejor a diseños personalizados.
+      </li>
+      <li class="list-group-item">
+        En Zentcorp, Tailwind ha sido implementado para lograr una identidad visual más precisa y adaptable sin sacrificar el rendimiento.
+      </li>
+    </ul>
+
+    <!-- Botón con enlace externo -->
+    <div class="text-center">
+      <a href="https://tailwindcss.com" target="_blank" class="btn btn-primary px-4 py-2">
+        Visitar sitio oficial de Tailwind CSS
+      </a>
+    </div>
+  </section>
+
+  <!-- Grid responsivo -->
+  <section class="container my-5">
+    <div class="text-center mb-4">
+      <img src="imagenes/imagen 08.png" alt="Ejemplo de maquetación responsive" class="img-fluid rounded shadow-sm mx-auto d-block" style="max-width: 100%;">
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 bg-white text-dark rounded-4 shadow-sm h-100">
+          <h2 class="h5 fw-semibold mb-2">Ventajas en rendimiento</h2>
+          <p>El uso de Tailwind permite reducir hojas de estilo extensas y evita sobrecarga de CSS innecesario. La maquetación es más ligera y rápida para cargar en dispositivos móviles.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 bg-white text-dark rounded-4 shadow-sm h-100">
+          <h2 class="h5 fw-semibold mb-2">Diseño adaptativo</h2>
+          <p>Gracias al sistema de clases utilitarias, el sitio puede ajustarse fácilmente a diferentes dispositivos sin depender de media queries personalizados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    &copy; 2025 Zentcorp - Tailwind CSS en sitios corporativos
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
